@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google" content="notranslate">
+    <title id="judul"></title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="icon" href="image/icons/icon.png">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#2d2d2d"/>
+</head>
+<body>
+    <!-- Navigasi -->
+    <div class="navbar-fixed">
+        <nav class="grey darken-4" >
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="./index.html" class="brand-logo center">A SPORTS</a>
+                    <a href="./index.html" class="sidenav-trigger" data-target="nav-mobile">
+                        <i class="material-icons">arrow_back</i>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <ul class="sidenav" id="nav-mobile"></ul>
+
+    <!-- Content -->
+    <div class="section" id="body-content"></div>
+    
+    <!-- Loader -->
+    <div class="center">
+        <div id="loading" class="preloader-wrapper active">
+            <div class="spinner-layer spinner-yellow-only">
+                <div class="circle-clipper left">
+                    <div class="circle"></div>
+                </div>
+                <div class="gap-patch">
+                    <div class="circle"></div>
+                </div>
+                <div class="circle-clipper right">
+                    <div class="circle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- delete button -->
+    <div class="fixed-action-btn">
+        <a class="btn-floating btn-large" style="background-color: #ff9800;" id="delete">
+            <i class="large material-icons tooltipped" data-position="left" data-tooltip="Delete From Favorite?">star</i>
+        </a>
+    </div>
+
+    <!-- Save Button -->
+    <div class="fixed-action-btn">
+        <a class="btn-floating btn-large" style="background-color: white;  border: 1.5px solid #ff9800;" id="save">
+            <i class="large material-icons tooltipped" style="color: #ff9800;" data-position="left" data-tooltip="Save To Favorite?">star</i>
+        </a>
+    </div>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/idb.js"></script>
+    <script src="js/db.js"></script>
+    <script src="js/api.js"></script>
+    <script type="text/javascript" src="js/main2.js"></script> 
+</body>
+</html>

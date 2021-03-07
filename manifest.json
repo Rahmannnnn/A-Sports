@@ -1,0 +1,33 @@
+{
+    "name": "A Sports",
+    "gcm_sender_id": "1003773193023",
+    "short_name": "A Sports",
+    "description": "Aplikasi PWA pertama saya",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#FFFFFF",
+    "theme_color": "#2d2d2d",
+    "icons": [
+        {
+            "src": "image/icons/icon192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "image/icons/icon.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "image/icons/maskable_icon2.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+
+    
+
+}
